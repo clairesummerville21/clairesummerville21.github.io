@@ -1,3 +1,113 @@
-body{
-    background-color: darksalmon;
+@font-face {
+    font-family: 'glyphworld';
+    src: url(fonts/glyphworld.ttf) format('truetype'),
+         url(fonts/glyphworld.otf) format('otf');
 }
+
+@font-face {
+    font-family: 'voxel';
+    src: url(fonts/voxel.ttf) format('truetype'),
+         url(fonts/voxel.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'inconsolata';
+    src: url(fonts/inconsolata.ttf) format('truetype'),
+         url(fonts/inconsolata.otf) format('otf');
+}
+
+body {
+    background-color: black;
+}
+
+div.heading1{
+    font-family: 'glyphworld', sans-serif;
+    color: black;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+div.heading2{
+    font-family: 'voxel', sans-serif;
+    color: black;
+}
+
+div.paragraph1{
+    font-family: 'inconsolata', sans-serif;
+    color: black;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+div.introtoreflecting{
+    font-family: 'voxel', sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+div.footerofreflecting{
+    font-family: 'voxel', 'inconsolata';
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+div.prereadingheading{
+    color: white;
+    font-family: 'voxel';
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div.readingheading{
+    color: white;
+    font-family: 'glyphworld';
+    font-size: 17px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+div.notesoneditors{
+    color: white;
+    font-family: 'inconsolata';
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+div.infotext{
+    color: white;
+    font-family: 'inconsolata';
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+div.quotereading{
+    color: white;
+    font-family: 'voxel';
+    margin-left: 10px;
+}
+
+div.continuereading{
+    color: white;
+    font-family: 'inconsolata';
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+div.footerofreading{
+    font-family: 'voxel', 'inconsolata';
+    margin-top: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
