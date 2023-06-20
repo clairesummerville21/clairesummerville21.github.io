@@ -6,7 +6,9 @@ body {
     background-size: 100%;
 }
 
-
+img{
+    width: 3%;
+}
 
 div.intersectionalgif{
     width: 20px;
