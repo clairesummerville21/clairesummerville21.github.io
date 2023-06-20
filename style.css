@@ -5,7 +5,7 @@ img{
 body {
     background-color: #FEFFF5;
     background-image: url(indexbgimage.png);
-    background-size: auto;
+    background-size: contain;
 }
 
 
