@@ -1,11 +1,9 @@
-img{
-    width: 100%;
-}
+
 
 body {
     background-color: #FEFFF5;
     background-image: url(indexbgimage.png);
-    background-size: 300px;
+    background-size: 100%;
 }
 
 
